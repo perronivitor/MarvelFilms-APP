@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">marvel</string>
+
+    <!--Menu Itens-->
+    <string name="menu_item_search">search</string>
+
+    <!--Menu Fragment -->
+    <string name="fragment_marvel_films">Marvel Films</string>
 </resources>

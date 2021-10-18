@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="125dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgCard"
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/detailGenreCard"
+            layout="@layout/detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp" />
+
+        <include
+            android:id="@+id/detailYearCard"
+            layout="@layout/detail_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/secondary"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/tcFilmNameCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            tools:text="The Incredible Hulk"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
