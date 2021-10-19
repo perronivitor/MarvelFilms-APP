@@ -18,6 +18,8 @@
     <color name="secondaryDark">#00000d</color>
     <color name="backgroundColor">#2b2b2b</color>
 
+    <color name="colorSubText">#B3BCBC</color>
+
     <color name="grenn_my">#4CAF50</color>
     <color name="red_light_my">#33FF0707</color>
     <color name="red_my">#FF0707</color>

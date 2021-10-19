@@ -3,10 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/menuNavItemSearch"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_item_search"
+        android:visible="false"
+         />
+
+    <item
         android:id="@+id/menuItemSearch"
         android:icon="@drawable/ic_baseline_search_24"
         android:iconTint="@color/white"
         app:showAsAction="ifRoom"
-        android:title="@string/menu_item_search" />
-
+        android:visible="false"
+        android:title="@string/menu_item_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
 </menu>

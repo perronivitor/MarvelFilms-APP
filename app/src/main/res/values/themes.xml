@@ -1,5 +1,4 @@
-<resources
-    xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="Theme.Marvel" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -32,4 +31,9 @@
     <style name="Theme.Marvel.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Marvel.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="mySubTextDetail">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/colorSubText</item>
+    </style>
 </resources>

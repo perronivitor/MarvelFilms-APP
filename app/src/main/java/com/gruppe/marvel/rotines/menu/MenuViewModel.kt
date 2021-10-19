@@ -1,4 +1,4 @@
-package com.gruppe.marvel.menu
+package com.gruppe.marvel.rotines.menu
 
 import androidx.lifecycle.ViewModel
 

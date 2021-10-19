@@ -1,7 +1,7 @@
-package com.gruppe.marvel
+package com.gruppe.marvel.rotines.search
 
 import androidx.lifecycle.ViewModel
 
 class SearchFilmViewModel : ViewModel() {
-    // TODO: Implement the ViewModel
+
 }

@@ -5,10 +5,27 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@id/menuFragment">
 
-
     <fragment
         android:id="@+id/menuFragment"
-        android:name="com.gruppe.marvel.menu.MenuFragment"
+        android:name="com.gruppe.marvel.rotines.menu.MenuFragment"
         android:label="@string/fragment_marvel_films"
-        tools:layout="@layout/menu_fragment" />
+        tools:layout="@layout/menu_fragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_searchFilmFragment2"
+            app:destination="@id/searchFilmFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_filmDetailFragment"
+            app:destination="@id/filmDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFilmFragment"
+        android:name="com.gruppe.marvel.rotines.search.SearchFilmFragment"
+        android:label="search_film_fragment"
+        tools:layout="@layout/search_film_fragment" />
+    <fragment
+        android:id="@+id/filmDetailFragment"
+        android:name="com.gruppe.marvel.rotines.detail.FilmDetailFragment"
+        android:label="film_detail_fragment"
+        tools:layout="@layout/film_detail_fragment" />
+
 </navigation>
