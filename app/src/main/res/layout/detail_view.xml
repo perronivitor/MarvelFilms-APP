@@ -8,6 +8,7 @@
     android:background="@drawable/shape_card_information">
 
     <TextView
+        android:id="@+id/tvDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Action"

@@ -1,4 +1,4 @@
-package com.gruppe.marvel.rotines.search
+package com.gruppe.marvel.presentation.search
 
 import androidx.lifecycle.ViewModel
 

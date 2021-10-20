@@ -1,4 +1,4 @@
-package com.gruppe.marvel.rotines.detail
+package com.gruppe.marvel.presentation.detail
 
 import androidx.lifecycle.ViewModel
 

@@ -6,4 +6,6 @@
 
     <!--Menu Fragment -->
     <string name="fragment_marvel_films">Marvel Films</string>
+    <string name="film_detail">Film Detail</string>
+    <string name="search_film">Search Film</string>
 </resources>
